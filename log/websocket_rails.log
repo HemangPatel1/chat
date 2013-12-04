@@ -3386,3 +3386,22 @@ I [2013-12-04 09:16:00.251] [[32mChannel[0m] [messages] {"message"=>"sdfa", "n
 
 I [2013-12-04 09:16:00.251] [[32mDispatcher[0m] Event message Finished in 0.001483 seconds
 
+I [2013-12-04 09:27:21.621] [[32mChannel[0m] #<Connnection::70149532359440> unsubscribed from channel messages
+
+I [2013-12-04 09:27:21.622] [[32mConnectionManager[0m] Connection closed: #<Connnection::70149532359440>
+
+I [2013-12-04 09:29:12.689] [[32mConnectionManager[0m] Connection opened: #<Connnection::70271010310680>
+
+I [2013-12-04 09:29:12.689] [[32mDispatcher[0m] Started Event: client_connected
+I [2013-12-04 09:29:12.689] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2013-12-04 09:29:12.689] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>70271010310680}
+I [2013-12-04 09:29:12.689] [[32mDispatcher[0m] [36mConnection:[0m #<Connnection::70271010310680>
+
+I [2013-12-04 09:29:12.691] [[32mDispatcher[0m] Event client_connected Finished in 0.000856 seconds
+
+I [2013-12-04 09:29:12.767] [[32mChannel[0m] #<Connnection::70271010310680> subscribed to channel messages
+
+I [2013-12-04 09:33:34.940] [[32mChannel[0m] #<Connnection::70271010310680> unsubscribed from channel messages
+
+I [2013-12-04 09:33:34.940] [[32mConnectionManager[0m] Connection closed: #<Connnection::70271010310680>
+
