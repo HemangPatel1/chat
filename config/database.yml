@@ -18,4 +18,4 @@ production:
   database: chat_app_production
   pool: 5
   username: chat_app
-  password:
+  password: 
