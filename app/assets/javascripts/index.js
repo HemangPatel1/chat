@@ -1,7 +1,7 @@
 
 $(function(){
 
-  var dispatcher = new WebSocketRails(window.location.host + '/websocket');
+  var dispatcher = new WebSocketRails(window.location.host + '/websocket')
 
   var channel = dispatcher.subscribe( "messages" );
 

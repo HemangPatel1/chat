@@ -9,7 +9,9 @@ gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'haml'
 
-gem 'rails_12factor'
+group :production do
+	gem 'rails_12factor'
+end
 gem 'websocket-rails'
 
 

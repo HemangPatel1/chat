@@ -3405,3 +3405,47 @@ I [2013-12-04 09:33:34.940] [[32mChannel[0m] #<Connnection::70271010310680> un
 
 I [2013-12-04 09:33:34.940] [[32mConnectionManager[0m] Connection closed: #<Connnection::70271010310680>
 
+I [2013-12-04 10:58:18.648] [[32mConnectionManager[0m] Connection opened: #<Connnection::70142646961120>
+
+I [2013-12-04 10:58:18.649] [[32mDispatcher[0m] Started Event: client_connected
+I [2013-12-04 10:58:18.649] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2013-12-04 10:58:18.649] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>70142646961120}
+I [2013-12-04 10:58:18.649] [[32mDispatcher[0m] [36mConnection:[0m #<Connnection::70142646961120>
+
+I [2013-12-04 10:58:18.650] [[32mDispatcher[0m] Event client_connected Finished in 0.000775 seconds
+
+I [2013-12-04 10:58:18.723] [[32mChannel[0m] #<Connnection::70142646961120> subscribed to channel messages
+
+I [2013-12-04 10:58:32.133] [[32mDispatcher[0m] Started Event: message
+I [2013-12-04 10:58:32.133] [[32mDispatcher[0m] [36mName:[0m message
+I [2013-12-04 10:58:32.133] [[32mDispatcher[0m] [36mData:[0m {"body"=>"hello", "nickname"=>"Guest_564"}
+I [2013-12-04 10:58:32.133] [[32mDispatcher[0m] [36mConnection:[0m #<Connnection::70142646961120>
+
+I [2013-12-04 10:58:32.134] [[32mChannel[0m] [messages] {"message"=>"hello", "nickname"=>"Guest_564"}
+
+I [2013-12-04 10:58:32.135] [[32mDispatcher[0m] Event message Finished in 0.001384 seconds
+
+I [2013-12-04 10:58:37.108] [[32mConnectionManager[0m] Connection opened: #<Connnection::70142627131980>
+
+I [2013-12-04 10:58:37.114] [[32mDispatcher[0m] Started Event: client_connected
+I [2013-12-04 10:58:37.115] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2013-12-04 10:58:37.115] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>70142627131980}
+I [2013-12-04 10:58:37.116] [[32mDispatcher[0m] [36mConnection:[0m #<Connnection::70142627131980>
+
+I [2013-12-04 10:58:37.129] [[32mDispatcher[0m] Event client_connected Finished in 0.001103 seconds
+
+I [2013-12-04 10:58:37.109] [[32mChannel[0m] #<Connnection::70142627131980> subscribed to channel messages
+
+I [2013-12-04 10:58:39.715] [[32mDispatcher[0m] Started Event: message
+I [2013-12-04 10:58:39.715] [[32mDispatcher[0m] [36mName:[0m message
+I [2013-12-04 10:58:39.715] [[32mDispatcher[0m] [36mData:[0m {"body"=>"Bar", "nickname"=>"Guest_490"}
+I [2013-12-04 10:58:39.715] [[32mDispatcher[0m] [36mConnection:[0m #<Connnection::70142627131980>
+
+I [2013-12-04 10:58:39.717] [[32mChannel[0m] [messages] {"message"=>"Bar", "nickname"=>"Guest_490"}
+
+I [2013-12-04 10:58:39.718] [[32mDispatcher[0m] Event message Finished in 0.002059 seconds
+
+I [2013-12-04 10:58:58.586] [[32mChannel[0m] #<Connnection::70142627131980> unsubscribed from channel messages
+
+I [2013-12-04 10:58:58.586] [[32mConnectionManager[0m] Connection closed: #<Connnection::70142627131980>
+

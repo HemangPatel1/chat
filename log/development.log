@@ -11931,3 +11931,195 @@ Started GET "/websocket" for 127.0.0.1 at 2013-12-04 09:29:12 +0000
   [1m[36m (10.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
   [1m[35m (3.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 10:58:17 +0000
+Processing by IndexController#index as HTML
+  Rendered index/index.haml within layouts/application (3.5ms)
+Completed 200 OK in 210ms (Views: 209.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/websocket" for 127.0.0.1 at 2013-12-04 10:58:18 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+Processing by IndexController#index as HTML
+  Rendered index/index.haml within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-04 10:58:36 +0000
+
+
+Started GET "/websocket" for 127.0.0.1 at 2013-12-04 10:58:37 +0000
